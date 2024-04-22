@@ -49,24 +49,23 @@ Things in Geneos that should have clear, sensible and (generally) unique names:
 
 ### Grouping and Hierarchies
 
-
 ## Managed Entities
 
 ### Attributes
 
-Correctly using and standardising Managed Entity Attributes is critical to the efficiency and utility of your Geneos installation.
+Geneos Attributes are used to categorise, group and filter Managed Entities quickly and efficiently. They are always preferred over using wildcard searches on Entity names. Ensuring the consistent use (and manageable selection) of Attributes across your organisation's Geneos monitored estate is crucial to achieving these goals.
 
-Attributes are used extensively in the Processing and Visualisation tiers. They can be used to partition monitoring, to dynamically change the display of the monitored estate to users and much more.
+Attributes are simple name/value pairs and only apply to Managed Entities and not to any other level of the Geneos directory. Both the name and value of an Attribute are case-sensitive, so `EXAMPLE`, `Example` and `example` are all different.
 
-At the basic level attributes are name/value pairs. Both name and value are case-sensitive, so `EXAMPLE`, `Example` and `example` are all considered different.
+We recommend that the names of Attributes should be all CAPITALS and make minimal use of non-alphanumeric characters, even if a wider character set is allowed by the software. Avoid using spaces and the allowed punctuation like dashes, underscores, percentage signs and dots.
 
-They can be defined on Managed Entities and on Managed Entity Groups and are inherited using a most-specific-wins basic. Even so, your configuration should be structured in such a way that for any given Managed Entity each application attribute is only defined once in the hierarchy from the Entity to the top level container.
+The values of each named Attribute can be more general but should be consistent across your estate, e.g. avoid mixing case like `London` and `LONDON` or using different word separators, e.g. `Data Center 1` and `Data-Centre-1`. The values should have a semantic meaning and this is enforced though a consistent policy in their definition and use.
 
-Names are used as selectors while values are typically displayed to users and/or used as match filters.
+With the exception of Dynamic Mappings the value of an Attribute is fixed and cannot be made up of User Variables. This makes sense if you consider it is at the Managed Entity level that User Variables are resolved to their final values before being used by configuration items referenced by the Managed Entity, e.g. within Samplers.
 
-All attribute names should be all UPPER-CASE and only contain letters and only occasionally a numeric suffix. For example `REGION` or `APPLICATION` or `LAYER1`. Avoid using spaces and the allowed punctuation like dashes, underscores, percentage signs and dots.
+Attributes can be defined in Managed Entities and also within Managed Entity Groups, and the usual inheritance rules apply, effectively being most-specific-wins.
 
-Attributes values, with some exceptions, should be a human readable and meaningful string.
+
 
 * Suggested Attribute Names
 
