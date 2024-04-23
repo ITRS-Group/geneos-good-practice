@@ -59,7 +59,7 @@ Attributes are simple name/value pairs and only apply to Managed Entities and no
 
 We recommend that the names of Attributes should be all CAPITALS and make minimal use of non-alphanumeric characters, even if a wider character set is allowed by the software. Avoid using spaces and the allowed punctuation like dashes, underscores, percentage signs and dots.
 
-The values of each named Attribute can be more general but should be consistent across your estate, e.g. avoid mixing case like `London` and `LONDON` or using different word separators, e.g. `Data Center 1` and `Data-Centre-1`. The values should have a semantic meaning and this is enforced though a consistent policy in their definition and use.
+The values of each named Attribute can be more general but should be consistent across your estate, e.g. avoid mixing case like `London` and `LONDON` or using different word separators, e.g. `Data Center 1` and `Data-Center-1`. The values should have a semantic meaning and this is enforced though a consistent policy in their definition and use.
 
 With the exception of Dynamic Mappings the value of an Attribute is fixed and cannot be made up of User Variables. This makes sense if you consider it is at the Managed Entity level that User Variables are resolved to their final values before being used by configuration items referenced by the Managed Entity, e.g. within Samplers.
 
