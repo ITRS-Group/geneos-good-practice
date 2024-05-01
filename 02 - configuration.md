@@ -53,33 +53,7 @@ Things in Geneos that should have clear, sensible and (generally) unique names:
 
 ### Attributes
 
-Geneos Attributes are used to categorise, group and filter Managed Entities quickly and efficiently. They are always preferred over using wildcard searches on Entity names. Ensuring the consistent use (and manageable selection) of Attributes across your organisation's Geneos monitored estate is crucial to achieving these goals.
-
-Attributes are simple name/value pairs and only apply to Managed Entities and not to any other level of the Geneos directory. Both the name and value of an Attribute are case-sensitive, so `EXAMPLE`, `Example` and `example` are all different.
-
-We recommend that the names of Attributes should be all CAPITALS and make minimal use of non-alphanumeric characters, even if a wider character set is allowed by the software. Avoid using spaces and the allowed punctuation like dashes, underscores, percentage signs and dots.
-
-The values of each named Attribute can be more general but should be consistent across your estate, e.g. avoid mixing case like `London` and `LONDON` or using different word separators, e.g. `Data Center 1` and `Data-Center-1`. The values should have a semantic meaning and this is enforced though a consistent policy in their definition and use.
-
-With the exception of Dynamic Mappings the value of an Attribute is fixed and cannot be made up of User Variables. This makes sense if you consider it is at the Managed Entity level that User Variables are resolved to their final values before being used by configuration items referenced by the Managed Entity, e.g. within Samplers.
-
-Attributes can be defined in Managed Entities and also within Managed Entity Groups, and the usual inheritance rules apply, effectively being most-specific-wins.
-
-
-
-* Suggested Attribute Names
-
- Name | Example Values | Comment
----------|----------|---------
- `APPLICATION` | `TradeFarm` | C1
- `COMPONENT` | `Database`, `Controller` | C2
- `REGION` | `EMEA`, `APAC` | C3
- `LOCATION` | `London`, `Houston` | C3
- `DATACENTER` | `NYC1`, `LNWest` | C3
- `OWNER` | `John Doe` | C3
- `CONTACT` | `l2team@example.com` | C3
- `ENVIRONMENT` | `PROD`, `DEV` | C3
-
+See [Attributes](./02%20-%20configuration%20-%20attributes.md)
 
 ## Include Files
 
