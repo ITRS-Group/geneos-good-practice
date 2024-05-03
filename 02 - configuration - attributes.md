@@ -144,16 +144,3 @@ Attributes that represent the technology being monitored are less likely to be h
   | `SLA`      |              | `2h`     |             |
   |            |              |          |             |
 
-* Suggested Attribute Names
-
- Name | Example Values | Comment
----------|----------|---------
- `APPLICATION` | `TradeFarm` | C1
- `COMPONENT` | `Database`, `Controller` | C2
- `REGION` | `EMEA`, `APAC` | C3
- `LOCATION` | `London`, `Houston` | C3
- `DATACENTER` | `NYC1`, `LNWest` | C3
- `OWNER` | `John Doe` | C3
- `CONTACT` | `l2team@example.com` | C3
- `ENVIRONMENT` | `PROD`, `DEV` | C3
-
