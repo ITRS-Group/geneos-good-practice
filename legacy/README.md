@@ -1,6 +1,8 @@
 # ITRS Geneos Best Practice - Legacy Files
 
-In this section you will find legacy versions of ITRS Geneos Best Practice guides. These editions are all circa 2014 and were written for much older Geneos releases and use tooling that is no longer recommended. They are published here for reference as they have never been formally published together before.
+In this section you will find legacy versions of **_ITRS Geneos Best Practice_** guides. These editions are all circa 2014 and were written for much older Geneos releases and use tooling that is no longer recommended. They are published here for reference as they have never been formally published together before.
+
+Additionally, we now use the term "Good Practice" rather than "Best Practice". The documents in this legacy area have, however, been left as-is and terminology is unchanged.
 
 > ⚠️ ITRS Professional Services, the original authors of these guides, have used them as the basis for Geneos installations for numerous clients but we now no longer recommend their use in their current form. Please see the updated guides at the top of this site.
 

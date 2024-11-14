@@ -1,12 +1,12 @@
-# ITRS Geneos Best Practices
+# ITRS Geneos Good Practices
 
 [Geneos](https://www.itrsgroup.com/products/geneos) is a powerful, complex and mature monitoring product for the _Always-On Enterprise_ with a particular focus on financial services.
 
-Over the course of its lifetime we, the Professional Services / Service Delivery team, have developed a number of best practices that we encourage all of our users to adopt. These include both deployment, configuration and ongoing operations of the product.
+Over the course of its lifetime we, the Professional Services / Service Delivery team, have developed a number of good practices that we encourage all of our users to adopt. These include both deployment, configuration and ongoing operations of the product.
 
-On this site you will find a selection of those best practices along with archives of older documents made available for reference.
+On this site you will find a selection of those good practices along with archives of older documents made available for reference.
 
-We are in the process of creating the latest Best Practice Guides and they will be published here as they become available. The aim is to make these live documents that will be maintained as we move forward and ITRS Geneos continue to evolve, acquire new features and work with our ever widening range of other products.
+We are in the process of creating the latest Good Practice Guides and they will be published here as they become available. The aim is to make these live documents that will be maintained as we move forward and ITRS Geneos continue to evolve, acquire new features and work with our ever widening range of other products.
 
 ## ITRS Resources
 
@@ -17,11 +17,11 @@ We are in the process of creating the latest Best Practice Guides and they will 
 
 > Note: The downloads can be also be accessed using the `geneos` program below, either directly from your systems if you have direct Internet access from the shell or from an independent system where you can download releases for internal distribution.
 
-### Best Practice `geneos` Tool
+### Good Practice `geneos` Tool
 
-The [`geneos`](https://github.com/ITRS-Group/cordial/tree/main/tools/geneos) program replaces all the previous shell scripts published with the Best Practice guides in the past with a much enhanced single executable that you can use to deploy and maintain your ITRS Geneos estate. It can be downloaded as part of the public [`cordial`](https://github.com/ITRS-Group/cordial/releases/latest) repo releases via github.
+The [`geneos`](https://github.com/ITRS-Group/cordial/tree/main/tools/geneos) program replaces all the previous shell scripts published with the Good Practice guides in the past with a much enhanced single executable that you can use to deploy and maintain your ITRS Geneos estate. It can be downloaded as part of the public [`cordial`](https://github.com/ITRS-Group/cordial/releases/latest) repo releases via github.
 
-This program is the one that will be used in the new Best Practice Guides.
+This program is the one that will be used in the new Good Practice Guides.
 
 ### Sample Geneos Configuration Files
 
